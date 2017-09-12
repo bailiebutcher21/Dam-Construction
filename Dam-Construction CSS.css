@@ -1,0 +1,34 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Arial Black";
+    border: 15px;
+    padding-top: 15px;
+    background-color: black;
+    color:black;
+}
+.navagationlinks{
+    position:absolute;
+    text-align: center;
+    word-spacing: 55px;
+    text-decoration: none;
+    z-index: 1;
+    width: 995px;
+    color: black;
+    vertical-align: middle;
+    padding-top: 50px;
+}
+.mainphotoonHomepage{
+    position: relative;
+    z-index: -1;
+}
+.welcome{
+    text-align: center;
+    color: white;
+}
+.smallimages{
+    width: 1000px;
+    display: inline-flex;
+    justify-content: space-between;
+}

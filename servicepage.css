@@ -1,0 +1,24 @@
+body{
+    font-family: "Arial Black";
+    color:black;
+    align-items: center;
+}
+.navagationlinks{
+    position:absolute;
+    text-align: center;
+    word-spacing: 55px;
+    text-decoration: none;
+    z-index: 1;
+    width: 995px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.box1{
+    position: relative;
+    display:inline-flex;
+}
+.box2{
+    position: absolute;
+    display: inline-flex;
+]
