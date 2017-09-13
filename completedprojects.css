@@ -1,0 +1,43 @@
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: black;
+    color:white;
+}
+.navagationlinks{
+    text-align: center;
+    word-spacing: 55px;
+    width: 995px;
+    vertical-align: middle;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: black;
+    height: 30px;
+    padding-top: 30px;
+    color:white;
+}
+.navagationlinks a {
+    text-decoration: none;
+    color: white;
+}
+.youtubevideo{
+    width: 560px;
+    height: 315px;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    margin: auto;
+    padding-top: 25px;
+}
+.bottomtext h2{
+    text-align: center;
+    padding-top: 25px;
+}
+.footer{
+    color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 50px;
+    text-align: center;
+}

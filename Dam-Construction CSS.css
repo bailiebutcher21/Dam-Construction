@@ -2,9 +2,7 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Arial Black";
-    border: 15px;
-    padding-top: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
     background-color: black;
     color:black;
 }
@@ -12,23 +10,79 @@ body {
     position:absolute;
     text-align: center;
     word-spacing: 55px;
-    text-decoration: none;
     z-index: 1;
     width: 995px;
-    color: black;
-    vertical-align: middle;
     padding-top: 50px;
+    vertical-align: middle;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.navagationlinks a {
+    text-decoration: none;
+    color: black;
 }
 .mainphotoonHomepage{
     position: relative;
-    z-index: -1;
 }
 .welcome{
     text-align: center;
-    color: white;
+    color: black;
+    position: absolute;
+    top: 270px;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+
 }
 .smallimages{
     width: 1000px;
     display: inline-flex;
     justify-content: space-between;
+    padding-top: 25px;
+    position: relative;
+}
+.smallimages a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+.bottomtext{
+    width: 1000px;
+    font-size: 35px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 800px;
+}
+.bottomtext a {
+    text-decoration: none;
+    color: black;
+    border:black;
+    background-color: white;
+    z-index: 1;
+    opacity: .7;
+}
+.services{
+    margin-left: 75px;
+}
+.contactus{
+    margin-right: 60px;
+}
+.footer{
+    color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 50px;
+    text-align: center;
+}
+.info{
+    color: white;
+}
+.info h2{
+    text-align: center;
+    margin-top: 50px;
 }

@@ -1,24 +1,19 @@
 body{
-    background-image: url("smallimage2.png");
-    background-size: 1000px;
+    background-image: url("img/smallimage2.png");
     background-repeat: no-repeat;
+    background-size: 1000px;
     background-position: center;
+    background-color: black;
     width: 1000px;
+    margin-top: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:black;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:50px;
-    margin-top:50px;
-    border: 15px;
-    background-color: black;
-    color:black;
 }
-
 .container{
-   text-align: center;
-    padding-bottom:15px;
+    text-align: center;
     background-color: white;
-    margin-right: 200px;
-    margin-left:200px;
     opacity: .7;
 }
 .navagationlinks{
@@ -26,5 +21,10 @@ body{
     word-spacing: 55px;
     width: 995px;
     color: black;
-    vertical-align: middle;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+.navagationlinks a{
+    text-decoration: none;
+    color:black;
+}
+
